@@ -18,25 +18,24 @@ body {
   display: flex;
   padding: 0px 70px 0px 70px;
   margin-bottom: 52px;
+  justify-content: center;
+  gap: 50px;
 }
 .content .title {
-  margin: 33px 160px 41px 33px;
+  margin: 0px;
+  margin-bottom: 40px;
   font-size: 20px;
 }
 .content .text {
-  margin: 0px 33px 33px 33px;
+  margin: 0px;
   font-size: 20px;
 }
 
 .box {
   width: 400px;
-  height: 800px;
+  padding: 33px;
   border: 5px solid #E5E000;
   border-radius: 30px;
-  margin-right: 50px;
-}
-.box:last-child {
-  margin-right: 0px;
 }
 
 .footer {
